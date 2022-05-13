@@ -10,7 +10,9 @@ body {
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
-
+.logo img{
+    width: 15%;
+}
 /* Navbar section */
 .nav {
     width: 100%;
