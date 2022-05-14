@@ -1,0 +1,79 @@
+.line
+{
+    border-bottom: 2px solid #000000;
+}
+/*.card-columns
+{
+    margin: 40px;
+    padding: 10px 10px 10px 10px;
+}
+.card-body
+{
+    background-image: linear-gradient(to right, red, black);
+}
+.card-body > p
+{
+    color: white;
+    font-family: 'Koulen', cursive;
+}
+.card-body > h5
+{
+    font-family: 'Slabo 27px', serif;
+    background: linear-gradient(to right, #171717, #001B5D);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.card-holder
+{
+    display: flex;
+}
+.card
+{
+    margin: 40px;
+}*/
+.tab
+{
+    width: 20%;   
+    height: 5rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 90px;
+    color: black;
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 20px;
+    margin-left: 42px;
+    cursor: pointer;
+    transition: width, height, align-items;
+    transition-duration: 2s;
+}
+.tab:hover
+{
+    width: 22%;
+    height: 6rem;
+    align-items: center;
+}
+.tab-container
+{
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+}
+.green
+{
+    background-color: #0FCC65;
+}
+.blue
+{
+    background-color: #0783D3;
+}
+body
+{
+    background-color: white;
+}
+.tab {transition-timing-function: ease;}
+.tab-item
+{
+    align-self: center;
+}
