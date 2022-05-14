@@ -1,10 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-* 
+body
+{
+    background-color: yellow;
+}
+.about-text
 {
     font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-align: center;
+    align-self: center;
+}
+.about-text-wrapper
+{
+    background-color: yellowgreen;
+    display: flex;
+    
+    padding: 20px
 }
 .about-wrapper {
     display: flex;
+    justify-items: space-around;
+    padding: 50px 20px 20px 20px;
+    border-radius: 10px;
 }
 .about-logo-wrapper img {
     width: 100%;
@@ -13,9 +29,42 @@
 }
 .about-logo-wrapper
 {
-    width: 21rem;
-    height: 20rem;
+    width: 19rem;
+    height: 18rem;
     align-items: center;
-    /*padding: 20px 10px;*/
-    background-color: red;
+    padding: 10px 10px;
+    background-color: black;
+}
+.about-logo-wrapper:hover
+{
+    animation-name: grow;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+@keyframes grow {
+    from {width: 19rem; height: 18rem;}
+    to {width: 19.5rem; height: 18.5rem;}
+}
+.about-bussines-name
+{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    text-align: center;
+}
+.about-bussines-quote
+{
+    font-family: 'Slabo 27px', serif;
+    background-color: black;
+    text-align: center;
+}
+.about-header
+{
+    font-family: 'Concert One', cursive;
+    align-self: top;
+    position: absolute;
+    top: 41%;
+    left: 57%;
+    margin: -35px 0 0 -35px;
+    font-size: 50px;
+    color: black;
 }
