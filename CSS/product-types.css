@@ -1,0 +1,19 @@
+.scroll-butttons-container
+{
+    width: 100%;
+    background-color: rgb(170, 166, 170);
+    padding: 50px 50px 50px 50px;
+}
+.scroll-text
+{
+    align-self: center;
+}
+.scroll-buttons
+{
+    background-color: whitesmoke;
+    text-align: center;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 90px 30px 30px;
+}
