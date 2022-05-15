@@ -1,8 +1,18 @@
 .scroll-butttons-container
 {
-    width: 100%;
+    /*width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: space-around;
     background-color: rgb(170, 166, 170);
-    padding: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: space-around;
+    /*align-items: center;*/
+    padding: 20px;
+    padding-left: 50px;
+    background-color:red;
 }
 .scroll-text
 {
@@ -12,6 +22,7 @@
 {
     background-color: whitesmoke;
     text-align: center;
+    border-radius: 15px;
     width: fit-content;
     justify-content: center;
     align-items: center;
