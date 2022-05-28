@@ -3,6 +3,10 @@ html
 {
     scroll-behavior: smooth;
 }
+#back_to_top
+{
+    cursor: pointer;
+}
 .scroll-butttons-container
 {
     display: grid;
