@@ -19,11 +19,9 @@ html
 {
     align-self: center;
     color: black;
-}
-.text-wrapper
-{
-    text-align: center;
-    white-space: pre-line;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .scroll-buttons
 {
@@ -49,10 +47,6 @@ html
 {
     box-shadow: 5px 10px 8px #888888;
     background-color: #3496f1;
-}
-body
-{
-    padding-top:30px;
 }
 .container
 {
