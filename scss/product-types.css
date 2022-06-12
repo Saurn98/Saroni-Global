@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+#back_to_top {
+  cursor: pointer;
+}
+
+.scroll-butttons-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: space-around;
+  /*align-items: center*/
+  background-color: #48C9B0;
+}
+
+.scroll-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scroll-buttons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.5px;
+  -webkit-box-shadow: 5px 10px 8px #888888;
+          box-shadow: 5px 10px 8px #888888;
+  margin: 5%;
+  cursor: pointer;
+  -webkit-transition: background-color;
+  transition: background-color;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: #ffffff;
+  text-decoration: none;
+  -webkit-transition: background-color ease;
+  transition: background-color ease;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.scroll-buttons:hover {
+  -webkit-box-shadow: 5px 10px 8px #888888;
+          box-shadow: 5px 10px 8px #888888;
+  background-color: #3496f1;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+.img-container {
+  -ms-flex-item-align: top;
+      -ms-grid-row-align: top;
+      align-self: top;
+  margin-top: 100px;
+  height: 30rem !important;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: #D1E7DD;
+  -o-border-image: none;
+     border-image: none;
+  border-radius: 0 0 0 0;
+  border-style: solid;
+  border-width: 10px;
+  border-width: 10px;
+}
+
+.table-container {
+  height: auto;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.table {
+  height: 100%;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.center-aligner {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+tr {
+  line-height: 15px;
+  min-height: 15px;
+  height: 15px;
+  text-align: center;
+}
+
+tr td {
+  font-size: 12px;
+}
+/*# sourceMappingURL=product-types.css.map */

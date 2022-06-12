@@ -56,6 +56,9 @@ html
 }
 .img-container
 {
+    align-self: top;
+    margin-top: 100px;
+    height: 30rem !important;
     width: 100%;
     padding: 10px 10px 10px 10px;
     background-position: center; /* Center the image */
@@ -91,5 +94,6 @@ tr
 {
     height: 12px !important;
 }
+
 
 
