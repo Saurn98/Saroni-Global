@@ -6,7 +6,8 @@
 }
 
 .about-us-top p {
-  padding: 8%;
+  padding-top: 25px;
+  padding-bottom: 15%;
   text-align: center;
 }
 
@@ -14,11 +15,22 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
 }
 
 .about-us-container .about-img img {
   width: 100%;
   height: 100%;
+  height: auto;
+}
+
+.about-us-container .about-us {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  color: black;
+  margin-top: 2.5rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 /*# sourceMappingURL=about.css.map */
